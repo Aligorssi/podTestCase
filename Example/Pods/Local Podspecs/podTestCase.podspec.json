@@ -1,0 +1,22 @@
+{
+  "name": "podTestCase",
+  "version": "0.1.0",
+  "summary": "A short description of podTestCase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aligorssi/podTestCase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aligorssi": "ali.gorssi@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/aligorssi/podTestCase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "podTestCase/Classes/**/*"
+}

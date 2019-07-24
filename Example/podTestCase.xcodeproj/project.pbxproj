@@ -43,9 +43,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		819346BA9C42D90DF73D88E3 /* Pods_podTestCase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_podTestCase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		873FA9411FAC39A295FA3300 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		976E8F616D683F15EB09E959 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EA1B4BDDCCDD680B0B78797A /* podTestCase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = podTestCase.podspec; path = ../podTestCase.podspec; sourceTree = "<group>"; };
+		873FA9411FAC39A295FA3300 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		976E8F616D683F15EB09E959 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EA1B4BDDCCDD680B0B78797A /* podTestCase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = podTestCase.podspec; path = ../podTestCase.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FCFB869A273583FE2850F9C8 /* Pods-podTestCase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-podTestCase_Example.debug.xcconfig"; path = "Target Support Files/Pods-podTestCase_Example/Pods-podTestCase_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				303B67C3325044B64EE0537E /* Pods-podTestCase_Tests.debug.xcconfig */,
 				503EC3AA76D4CBA99C951A93 /* Pods-podTestCase_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
